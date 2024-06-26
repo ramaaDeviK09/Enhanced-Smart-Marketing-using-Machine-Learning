@@ -1,0 +1,27 @@
+.homeCover{
+    background-image: url("https://www.lifeberrys.com/img/article/organic-vegetables-1615202182-lb.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+    margin: 5px 10px;
+    
+}
+.category-img{
+    width: 350px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.category{
+    margin-left: 20px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 10px;
+}
+
+.home-preview{
+    margin:35px 0;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2px;
+}

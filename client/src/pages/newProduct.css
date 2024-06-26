@@ -1,0 +1,22 @@
+.new-product{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.new-product-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.img-preview{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+select{
+    width:190px;
+}

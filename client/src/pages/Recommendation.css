@@ -1,0 +1,14 @@
+.btns{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.btns button {
+    width: 500px;
+    text-align: center;
+    border: none
+}

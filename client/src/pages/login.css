@@ -1,0 +1,21 @@
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.login > form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+  }
+  
+  .loginimg{
+    background-image: url("https://img1.exportersindia.com/product_images/bc-full/dir_97/2883042/agriculture-product-992784.jpg");
+    background-size: cover;
+    width: 40vw;
+    height: 80vh;
+    margin-top: 25px;
+  }
